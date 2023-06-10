@@ -18,7 +18,7 @@ export const Navbar = () => {
       >
         <span className="sr-only">Open sidebar</span>
         <svg
-          className="w-6 h-6"
+          className="w-6 h-6 "
           aria-hidden="true"
           fill="currentColor"
           viewBox="0 0 20 20"
