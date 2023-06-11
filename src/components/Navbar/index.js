@@ -2,13 +2,13 @@ import React from "react";
 import { useState } from "react";
 import MENU_ITEMS from "data/constants/navLinks";
 import Link from "next/link";
-
-import Dashboard from "components/Svg/Dashboard"
-import Profile from "components/Svg/Profile"
-import Products from "components/Svg/Products"
-import SignUp from "components/Svg/SignUp"
-import Inbox from "components/Svg/Inbox"
-
+import {
+  Dashboard,
+  Profile,
+  Products,
+  SignUp,
+  Inbox,
+} from "components/Svg";
 export const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 

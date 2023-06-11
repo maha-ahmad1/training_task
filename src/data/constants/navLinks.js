@@ -1,10 +1,12 @@
-import Dashboard from "components/Svg/Dashboard";
-import Profile from "components/Svg/Profile";
-import Products from "components/Svg/Products";
-import SignUp from "components/Svg/SignUp";
-import Inbox from "components/Svg/Inbox";
-import Kana from "components/Svg/Kana";
-import SignIn from "components/Svg/SignIn";
+import {
+  Dashboard,
+  Kana,
+  Profile,
+  Products,
+  SignIn,
+  SignUp,
+  Inbox
+} from "components/Svg";
 
 export const MENU_ITEMS = [
   {
@@ -17,6 +19,7 @@ export const MENU_ITEMS = [
     icon: <Kana />,
     link: "#",
     badge: "Pro",
+
   },
   {
     title: "Inbox",
