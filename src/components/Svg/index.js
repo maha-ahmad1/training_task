@@ -1,5 +1,5 @@
 export * from "./Profile";
-export * from "./Kanban";
+export * from "./Kana";
 export * from "./Dashboard";
 export * from "./Products";
 export * from "./SignIn";

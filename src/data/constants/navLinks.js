@@ -1,6 +1,6 @@
 import {
   Dashboard,
-  Kanban,
+  Kana,
   Profile,
   Products,
   SignIn,
@@ -15,8 +15,8 @@ export const MENU_ITEMS = [
     link: "#",
   },
   {
-    title: "Kanban",
-    icon: <Kanban />,
+    title: "Kana",
+    icon: <Kana />,
     link: "#",
     badge: "Pro",
 

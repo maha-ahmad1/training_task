@@ -1,5 +1,5 @@
 
-export const Kanban = (props) => {
+export const Kana = (props) => {
     return (
         <svg
         aria-hidden="true"
@@ -14,5 +14,5 @@ export const Kanban = (props) => {
     );
   };
   
-  export default Kanban;
+  export default Kana;
   
